@@ -1,0 +1,84 @@
+.classpath/
+.externalToolBuilders/
+.project/
+.settings/
+build/
+.idea/
+logs/
+target/
+out/
+*.iml
+*.orig
+*~
+*.tmp
+*.project
+*.pyc
+#####################################
+# Copy from https://github.com/github/gitignore/
+# Ignore java and scala output files. 
+#####################################
+*.class
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# Package Files #
+*.jar
+*.war
+*.ear
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml 
+hs_err_pid*
+
+# sbt specific
+.cache/
+.history/
+.lib/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+node_modules/
+bower_components/
+ambari-web/public/
+ambari-admin/src/main/resources/ui/admin-web/dist
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+/src/infrastructure/interactive-console/src/main/webapp/WEB-INF/classes
+/src/infrastructure/interactive-console/src/main/webapp/WEB-INF/lib
+/src/infrastructure/interactive-console/*.epoch
+/src/infrastructure/interactive-console/tmlog*.log
+/src/infrastructure/interactive-console/tmlog.lck
+src/infrastructure/DataHub/task/dependency-reduced-pom.xml
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
